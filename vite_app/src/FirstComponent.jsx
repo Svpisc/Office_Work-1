@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import DataContext from './DataContext';
+import SecondComponent from './SecondComponent'
 
 const FirstComponent = () => {
   const { data } = useContext(DataContext);
@@ -12,3 +13,6 @@ const FirstComponent = () => {
 };
 
 export default FirstComponent;
+
+
+

@@ -7,6 +7,7 @@ const SecondComponent = () => {
 
   return (
     <div>
+      <p>Your Second component's content</p>
       <p>{data.message}</p>
     </div>
   );
