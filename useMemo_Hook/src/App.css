@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.main{
+  border: 2px solid green;
+  height: 750px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+.name{
+  border-radius: 8px; 
+  padding: 100px;
+  height: 100px;
+  width: 270px;
+  background-color: #99bdd1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 12px 12px 2px 1px rgb(224, 195, 195);
+}
+button{
+  border-radius: 5px;
+  margin: 8px;
+  padding: 5px;
+  color: aqua;
+  background-color: #3d4da9;
+  cursor: pointer;
+  box-shadow: 3px 3px 2px 1px pink;
+}
+button:hover{
+  background-color: blue;
+
+}
+span{
+  color: rgb(19, 7, 241);
+}

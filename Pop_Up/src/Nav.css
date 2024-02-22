@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    width: 100%;
+    height: 45px;
+    background-color: #9cb1ba;
+}
+li{
+    font-size: 20px;
+    /* text-decoration: none; */
+}
